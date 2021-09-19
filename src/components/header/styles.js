@@ -23,6 +23,12 @@ const HeaderTitle = styled.h2`
     color: darkblue;
     font-family: 'Apple Color Emoji';
     text-align: center;
+    font-size: 40px;
+    font-style: italic;
+
+    @media(max-width: 786px) {
+        font-size: 30px;
+    }
 `;
 
 export { StyledHeader, HeaderTitle }
