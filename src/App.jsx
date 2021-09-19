@@ -8,7 +8,7 @@ import { StyledContainer } from './styles'
 export const App = () => {
     return (
         <StyledContainer>
-            <Header>My Vocab Learner</Header>
+            <Header>My Vocab <br className='invisible' />Learner</Header>
             <Sidebar />
             <Page />
             <Footer />
